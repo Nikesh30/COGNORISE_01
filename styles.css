@@ -1,0 +1,111 @@
+/*
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+*/
+
+:root{
+    --primary-color: #0b0c10;
+    --primary-color-light: #1f2833;
+    --secondary-color: #66fcf1;
+    --text-color:black;
+    --max-width: 1200px;
+    --tertiary-color: #c5c6c7;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #1f2833;
+}
+
+.box{
+    padding: 20px;
+    width: max-content;
+    position: relative;
+    left: 500px;
+    top: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: #66fcf1;
+}
+
+.container{
+    padding: 25px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .input_data, .output_data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.input_data select, 
+.output_data select{
+    margin: 10px;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+.input_data input,
+.output_data input{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    background-color: #0b0c10;
+    color: #66fcf1;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#title{
+    position: relative;
+    top: 20px;
+    font-weight: 600;
+}
